@@ -1,0 +1,13 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only — no personal names.
+{:ooyake-id "gov.and"
+  :official-url "https://www.govern.ad/"
+  :name-en "Andorra"
+  :name-local "Andorra"
+  :wikidata "Q228"
+  :head-role "public procurement authority"
+  :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+  :contact-page "https://www.wikidata.org/wiki/Q1863"
+  :sourced-from "com-etzhayyim-ooyake gov-units (verbatim where present)"
+  :hq {:line-en "Andorra la Vella" :country "and" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q1863" :last-verified "2026-07-10" :sourcing "authoritative"}
+}
