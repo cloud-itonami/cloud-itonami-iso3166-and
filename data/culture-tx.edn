@@ -1,0 +1,12 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "and.dish.trinxat", :name "Trinxat", :country "AND", :kind :dish, :summary "Dish of mashed potatoes, cabbage and pork from the Pyrenees, principally Andorra and the Catalan comarques of Cerdanya and Alt Urgell.", :url "https://en.wikipedia.org/wiki/Trinxat", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "and.dish.coca", :name "Coca", :country "AND", :kind :dish, :summary "Sweet or savory pastry typically made and consumed in Catalonia, most of Valencia, the Balearic Islands, Andorra and French Catalonia.", :url "https://en.wikipedia.org/wiki/Coca_(pastry)", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Our_Lady_of_Meritxell", :id "and.festival.our-lady-of-meritxell", :kind :festival, :name-local "Mare de Déu de Meritxell", :country "AND", :retrieved-at "2026-07-17", :summary "Feast day of Our Lady of Meritxell, patron saint of Andorra, celebrated on 8 September as the Andorran National Day.", :name "Our Lady of Meritxell Day", :url-provenance :wikipedia-en}
+#:culture{:id "and.heritage.madriu-perafita-claror", :name "Madriu-Perafita-Claror Valley", :country "AND", :kind :heritage, :summary "Glacial valley in southeastern Andorra covering about 9% of the country, Andorra's only UNESCO World Heritage Site, inscribed in 2004.", :url "https://en.wikipedia.org/wiki/Madriu-Perafita-Claror_Valley", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "and.heritage.casa-de-la-vall", :name "Casa de la Vall", :country "AND", :kind :heritage, :summary "Historic 16th-century house in Andorra la Vella that served as the seat of Andorra's General Council until 2011, registered in the Cultural Heritage of Andorra.", :url "https://en.wikipedia.org/wiki/Casa_de_la_Vall", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
