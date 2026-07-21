@@ -1,3 +1,3 @@
 # Operator guide — AND
 
-Portal: public procurement.
+Human-gated filing only.
