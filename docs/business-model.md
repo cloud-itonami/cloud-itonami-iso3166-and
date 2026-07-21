@@ -1,3 +1,4 @@
 # Business model — AND
 
-Market-entry compliance for Andorra.
+- Ministeri de Finances e-procurement (Plataforma de contractació del sector públic)
+- Registre de Societats Mercantils + NRT
