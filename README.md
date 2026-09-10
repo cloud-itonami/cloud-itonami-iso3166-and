@@ -25,7 +25,7 @@ as `cloud-itonami-iso3166-jpn`/`-deu`/`-ben`/`-atg` (minus the JPN-specific
   Art. 26.2.b). `governor.cljc`'s flagship check independently
   recomputes Llei 14/2022 Art. 30.1's direct-contracting EUR thresholds
   (per contract type and urgency).
-- `src/statute/facts.cljc` -- general-law catalog: Llei 20/2007
+- `src/statute/facts.kotoba` -- general-law catalog: Llei 20/2007
   (societats anònimes i de responsabilitat limitada), Llei 31/2018 (de
   relacions laborals) and Llei 29/2021 (qualificada de protecció de
   dades personals, which governs the Agència Andorrana de Protecció de
@@ -44,7 +44,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Andorra:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.kotoba` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
